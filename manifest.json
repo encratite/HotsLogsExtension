@@ -1,0 +1,13 @@
+{
+    "name": "Sort hotslogs.com hero stats by win/loss difference",
+    "version": "1",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "js": [
+            "HotsLogsExtension.js"
+        ],
+        "matches": [
+            "https://www.hotslogs.com/Player/Profile?PlayerID=*"
+        ]
+    }]
+}
